@@ -1,0 +1,117 @@
+.banner {
+  margin-bottom: 30px;
+}
+h4.violet_blue {
+  text-align: center;
+  font-size: 20px;
+  color: #c00;
+  padding: 8px;
+  background: #fff7f1;
+}
+.ramadan_heading {
+  font-size: 15px;
+  background: #ffe9db;
+  text-align: center;
+  color: #333;
+  padding: 6px 0;
+}
+.selector_wrapper {
+  margin: 8px 0 30px;
+}
+.selector_wrapper div {
+  float: left;
+  width: 49%;
+  margin-right: 1%;
+}
+.selector_wrapper div:last-of-type {
+  float: right;
+  margin-right: 0%;
+}
+
+td.ramadan_type {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+select {
+  font-size: 16px;
+  padding: 4px;
+  width: 100%;
+  border: 1px solid #ced4da;
+}
+#timeTable th {
+  background-color: #ffe0cc;
+  padding: 0 8px;
+  font-size: 14px;
+}
+#timeTable td {
+  background-color: #eff7ff;
+  padding: 4px;
+  font-size: 16px;
+  text-align: center;
+}
+.content h3 {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.roja_dua h3 {
+  color: #ff0000;
+}
+p.source {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 800px) {
+  .secondary_logo {
+    font-size: 28px;
+    line-height: 54px;
+  }
+  .selector_wrapper div {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+  }
+  .division {
+    width: 46%;
+    float: left;
+    margin-right: 4%;
+  }
+  .district {
+    width: 46%;
+    float: left;
+  }
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.banner .col-10{
+  position: relative;
+}
+
+.banner .col-10::after {
+  position: absolute;
+  content: '';
+  height: 5px;
+  width: 96.9%;
+  background-color: #5BA8D4;
+  top: 110%;
+}
+
+#timeTable tr:nth-child(even) td {
+  background-color: #fafdfd;
+}
+
+.footer {
+  background-color: #5BA8D4;
+  margin-top: 21px;
+}
+
+.footer p {
+  color: #fff;
+}
